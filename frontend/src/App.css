@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    font-size: 15px;
+}
+body{
+    /* background-color: lightcoral; */
+}
+.upper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+.memoriesContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    border-radius: 10px;
+    margin: auto;
+    height: 60%;
+    box-shadow: 0 0 10px 0 grey;
+}
+.introTitle{
+    font-size: 3vmax;
+    letter-spacing: .1vmax;
+    color: lightcoral;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.memoriesContainer>img{
+    width: 3.5vmax;    
+    margin-left: 1vmax;
+}
